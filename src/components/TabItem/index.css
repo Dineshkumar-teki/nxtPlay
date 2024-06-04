@@ -1,0 +1,24 @@
+.tabIconCard {
+  padding: 10px 1rem;
+  border-radius: 0 5px 5px 0;
+}
+.tabIconCard > button {
+  background-color: transparent;
+  border: 0 solid;
+  outline: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.tabIcon {
+  font-size: 18px;
+  align-self: center;
+}
+.tabName {
+  font-size: 16px;
+  align-self: center;
+  color: black;
+}
+.highlightTab {
+  background-color: rgb(211, 209, 209);
+  color: red;
+}

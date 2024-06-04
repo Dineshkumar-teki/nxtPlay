@@ -1,0 +1,22 @@
+.failureView,
+.loader-container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+}
+.failureView > img {
+  width: 25%;
+}
+.RetryBtn {
+  width: 100px;
+  padding: 10px 0;
+  background-color: purple;
+  border: 0 solid;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+nav {
+  height: 10vh;
+  display: flex;
+  padding: 1rem 4rem;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+}
+nav > img {
+  width: 170px;
+}
+.profileCard {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+.profileCard > img {
+  width: 35px;
+  height: 35px;
+}
+.themeChanger {
+  background-color: transparent;
+  border: 0 solid;
+  outline: none;
+  display: grid;
+  place-items: center;
+}
+.themeChanger > .icon {
+  height: 30px;
+  width: 30px;
+}
+.logoutBtn {
+  width: 100px;
+  padding: 6px 0;
+  background-color: transparent;
+  border: 2px solid rgb(40, 163, 235);
+  color: rgb(40, 162, 233);
+  border-radius: 5px;
+  cursor: pointer;
+}

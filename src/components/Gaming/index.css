@@ -1,0 +1,23 @@
+.gameBanner {
+  background-color: silver;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+.gameIconContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 215, 215);
+}
+.gameIconContainer > .gameIcon {
+  color: red;
+  font-size: 28px;
+}
